@@ -1,0 +1,17 @@
+{
+  "name": "repro-rollup-vue2-jsx",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@rollup/plugin-babel": "^5.2.3",
+    "@vue/babel-preset-jsx": "^1.2.4",
+    "rollup": "^2.38.2",
+    "rollup-plugin-vue": "^5",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
